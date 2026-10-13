@@ -13,7 +13,7 @@ This part contains the DEM co-registration and geodetic mass-balance calculation
 
 ### Ice thickness
 
-This part contains the GlabTop2 ice-thickness function and the calculations for the four glacier inventories.
+This part contains the GlabTop2 ice thickness function and the calculations for the four glacier inventories.
 
 - `Ice_thickness_GlabTop2.py` defines the core `calculate_ice_thickness()` function for a single glacier and is imported by the four year-specific scripts rather than run independently.
 - `Cal_thk_1947.py` and `Cal_thk_1988.py` calculate island-wide ice thickness for the 1947 and 1988 glacier inventories, respectively.
